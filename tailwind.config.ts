@@ -67,7 +67,8 @@ export default {
   		animation: {
   			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite',
   			marquee: 'marquee var(--duration) infinite linear',
-  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+  			gradient: 'gradient 8s linear infinite'
   		},
   		keyframes: {
   			ripple: {
@@ -92,6 +93,11 @@ export default {
   				},
   				to: {
   					transform: 'translateY(calc(-100% - var(--gap)))'
+  				}
+  			},
+  			gradient: {
+  				to: {
+  					backgroundPosition: 'var(--bg-size) 0'
   				}
   			}
   		}

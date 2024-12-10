@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react"
 const Navlinks = () => {
   return (
     <>
-        <a href='#'>Home</a>
-        <a href='#'>About</a>
+        <a href='/'>Home</a>
+        <a href='/#about'>About</a>
         <a href='#'>Techstack</a>
         <a href='#'>Qualifications</a>
         <a href='#'>Contact</a>

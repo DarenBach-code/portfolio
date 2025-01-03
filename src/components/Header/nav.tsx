@@ -1,6 +1,6 @@
-'use client'
-import React, { useState } from 'react'
-import { Menu, X } from "lucide-react"
+'use client';
+import React, { useState } from 'react';
+import { Menu, X } from "lucide-react";
 
 
 const Navlinks = () => {
@@ -8,7 +8,7 @@ const Navlinks = () => {
     <>
         <a href='/'>Home</a>
         <a href='/#about'>About</a>
-        <a href='#'>Techstack</a>
+        <a href='/#techstack'>Techstack</a>
         <a href='#'>Qualifications</a>
         <a href='#'>Contact</a>
     </>

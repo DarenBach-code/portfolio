@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div>
       <Header/>
-      <Home/>
+      <div id='home'><Home/></div>
       <div id='about'><About/></div>
       <div id='techstack'><Techstack/></div>
     </div>

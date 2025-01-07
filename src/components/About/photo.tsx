@@ -4,7 +4,7 @@ import Photo from "@/public/blurphoto.svg"
 
 const photo = () => {
   return (
-    <Image className='w-96 h-auto md:w-5/6 max-phone:hidden'
+    <Image className='w-96 h-auto md:w-5/6 place-self-center max-phone:hidden'
     src={Photo}
     alt='photo of me'
     />

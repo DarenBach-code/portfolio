@@ -1,14 +1,15 @@
 'use client';
 import React, { useState } from 'react';
 import { Menu, X } from "lucide-react";
+import { Link } from 'react-scroll'; 
 
 
 const Navlinks = () => {
   return (
     <>
-        <a href='/'>Home</a>
-        <a href='/#about'>About</a>
-        <a href='/#techstack'>Techstack</a>
+        <Link to='home' spy={true} smooth={true} offset={50} duration={500}>Home</Link>
+        <Link to='about' spy={true} smooth={true} offset={50} duration={500}>About</Link>
+        <Link to='techstack' spy={true} smooth={true} offset={50} duration={500}>Techstack</Link>
         <a href='#'>Qualifications</a>
         <a href='#'>Contact</a>
     </>

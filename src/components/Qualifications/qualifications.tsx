@@ -31,7 +31,7 @@ const qualifications = () => {
                 </div>
             </div>
             <div className='flex justify-between px-20 pt-2'>
-                <h1 className='text-white'>See my full Resume</h1>
+                <h1 className='text-white font-bold text-lg'>See my full Resume</h1>
                 <InteractiveHoverButton />
             </div>
         </BlurFade>

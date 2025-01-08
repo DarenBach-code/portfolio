@@ -13,7 +13,7 @@ const qualifications = () => {
                     <BookMarked color='white'/>
                     <h1 className='ml-2 text-white text-lg font-semibold'>Education</h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 justify-items-center gap-10 py-12 border-y-2 border-double border-red-100'>
+                <div className='grid grid-cols-1 md:grid-cols-3 justify-items-center gap-10 py-12 border-y-2 border-double border-slate-400'>
                     <div>
                         <h1 className='text-white font-medium'>CS50</h1>
                         <p className='text-slate-400 font-light text-sm'>Completing the renowned CS50 course helped me master programming fundamentals, algorithms, and problem-solving, sparking my passion for developing innovative technology solutions.</p>
@@ -31,8 +31,10 @@ const qualifications = () => {
                 </div>
             </div>
             <div className='flex justify-between px-20 pt-2'>
-                <h1 className='text-white font-bold text-lg'>See my full Resume</h1>
+                <h1 className='text-white font-bold text-lg'>My Resume</h1>
+                
                 <InteractiveHoverButton />
+                
             </div>
         </BlurFade>
     </div>

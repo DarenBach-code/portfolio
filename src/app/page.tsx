@@ -5,6 +5,7 @@ import Home from "@/components/Home/home";
 import About from "@/components/About/about";
 import Techstack from "@/components/Techstack/techstack";
 import Qualifications from '@/components/Qualifications/qualifications';
+import Contact from '@/components/Contact/contact';
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
       <div id='about'><About/></div>
       <div id='techstack'><Techstack/></div>
       <div id='qualifications'><Qualifications/></div>
+      <div id='contact'><Contact/></div>
     </div>
   )
 }

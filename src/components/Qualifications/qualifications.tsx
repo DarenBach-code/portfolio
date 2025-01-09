@@ -31,9 +31,9 @@ const qualifications = () => {
                 </div>
             </div>
             <div className='flex justify-between px-20 pt-2'>
-                <h1 className='text-white font-bold text-lg'>My Resume</h1>
+                <h1 className='text-white font-bold text-lg'>GDG Website</h1>
                 
-                <InteractiveHoverButton />
+                <a href='https://gdg.community.dev/gdg-on-campus-anoka-ramsey-community-college-coon-rapids-united-states/'><InteractiveHoverButton /></a>
                 
             </div>
         </BlurFade>

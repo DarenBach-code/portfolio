@@ -10,7 +10,7 @@ interface InteractiveHoverButtonProps
 const InteractiveHoverButton = React.forwardRef<
   HTMLButtonElement,
   InteractiveHoverButtonProps
->(({ text = "Resume", className, ...props }, ref) => {
+>(({ text = "GDG", className, ...props }, ref) => {
   return (
     <button
       ref={ref}

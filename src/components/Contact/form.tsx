@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 
-const form = () => {
+const Form: React.FC = () => {
 
     const form = useRef<HTMLFormElement>(null);
     const [successMessage, setSuccessMessage] = useState<string | null>(null);
@@ -30,7 +30,6 @@ const form = () => {
           );
       }
     };
-
 
 
   return (
@@ -60,4 +59,4 @@ const form = () => {
   )
 }
 
-export default form
+export default Form

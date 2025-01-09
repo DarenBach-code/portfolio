@@ -15,7 +15,7 @@ const techstack = () => {
           
           <div className='text-gray-400 mt-16 place-self-center'>
             <Morph/>
-            <p className='px-4 py-12 text-zinc-400 text-center leading-relaxed text-lg'>Experienced student leader with experience in fullstack development. I have experience in technology's such as JavaScript, Typescript, React, HTML, CSS, Tailwind, MySQL, Nuxt, and so much more!</p>
+            <p className='px-4 py-12 text-zinc-400 text-center leading-relaxed text-lg'>Experienced student leader with experience in fullstack development. I have experience in technology&apos;s such as JavaScript, Typescript, React, HTML, CSS, Tailwind, MySQL, Nuxt, and so much more!</p>
           </div>
         </div>
       </BlurFade>

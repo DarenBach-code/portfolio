@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className='md:flex m-16 justify-between lg:m-36'>
         <div className='md:pt-2 lg:pt-6'>
-          <h1 className='font-bold text-4xl text-center text-white lg:text-5xl'>Hello, World! <br/> I'm Daren 👋, <br/>Software D<span className='underline decoration-orange-400 decoration-8 underline-offset-[24px]'>evelope</span>r.</h1>
+          <h1 className='font-bold text-4xl text-center text-white lg:text-5xl'>Hello, World! <br/> I&apos;m Daren 👋, <br/>Software D<span className='underline decoration-orange-400 decoration-8 underline-offset-[24px]'>evelope</span>r.</h1>
           <p className='text-gray-300 mt-14 font-thin text-center h-20 border-b-[0.5px] border-gray-400'>Software Engineering undergrad at St. Cloud University.</p>
           <div className='grid grid-cols-3 divide-x mt-16'>
             <div className='justify-self-center'>

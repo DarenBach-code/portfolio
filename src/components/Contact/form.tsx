@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 
-const form: React.FC = () => {
+const form = () => {
 
     const form = useRef<HTMLFormElement>(null);
     const [successMessage, setSuccessMessage] = useState<string | null>(null);

@@ -15,7 +15,7 @@ export default {
   		lg: '1024px',
   		xl: '1280px',
   		'2xl': '1536px',
-		mxwidth : '1277px'
+		mxwidth : '1512px'
   	},
   	extend: {
   		colors: {

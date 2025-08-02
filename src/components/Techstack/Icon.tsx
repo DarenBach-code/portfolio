@@ -39,7 +39,7 @@ const Icon = () => {
         "nginx",
         "vercel",
         "testinglibrary",
-        "jest",
+        "C",
         "cypress",
         "docker",
         "git",
@@ -47,7 +47,7 @@ const Icon = () => {
         "github",
         "gitlab",
         "androidstudio",
-        "sonar",
+        "Go",
         "figma",
     ];
 

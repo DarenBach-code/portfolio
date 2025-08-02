@@ -6,7 +6,10 @@ const Logo = () => {
   return (
     <Image className='size-20'
     src={DB}
+    priority={true}
     alt='Logo'
+    width={80}
+    height={80}
     />
   )
 }
